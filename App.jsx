@@ -191,7 +191,8 @@ export default function Portfolio() {
       title: "Why I End Meetings Early",
       description: "Booking long and ending early respects cognitive load and gets better results.",
       category: "Leadership",
-      status: "Coming This Week"
+      status: "Read on Medium",
+      link: "https://medium.com/@courtneykingsbury"
     },
     {
       title: "Working Faster ≠ More Work",
@@ -700,14 +701,28 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-3 gap-6">
             {blogPosts.map((post, index) => (
               <AnimatedSection key={index} delay={index * 100}>
-                <div 
-                  className="p-6 rounded-2xl h-full"
-                  style={{ backgroundColor: colors.cream }}
-                >
-                  <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.status}</p>
-                  <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
-                  <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
-                </div>
+                {post.link ? (
+                  <a
+                    href={post.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block p-6 rounded-2xl h-full transition hover:opacity-80"
+                    style={{ backgroundColor: colors.cream }}
+                  >
+                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.status}</p>
+                    <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
+                    <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
+                  </a>
+                ) : (
+                  <div
+                    className="p-6 rounded-2xl h-full"
+                    style={{ backgroundColor: colors.cream }}
+                  >
+                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.status}</p>
+                    <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
+                    <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
+                  </div>
+                )}
               </AnimatedSection>
             ))}
           </div>
