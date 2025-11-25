@@ -145,8 +145,8 @@ export default function Portfolio() {
       technical: "Built website with integrated chatbot using conversational AI, eligibility verification logic, request forms, and tree recommendation quiz. Automated 95% of resident interactions.",
       pmWhy: "Chose chatbot over hiring help because it scaled instantly, cost less, and handled 24/7 availability. When scope expands 12x, automation beats hiring.",
       impact: ["600+ homes", "$120K+ neighborhood savings", "95% automated", "City partnership"],
-      link: null,
-      linkText: "View Project (Coming Soon)"
+      link: "https://trees.courtneykingsbury.com/",
+      linkText: "View Trees Project"
     },
     {
       number: "02",
