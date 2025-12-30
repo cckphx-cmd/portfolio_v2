@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Linkedin, ChevronDown, ChevronUp, Menu, X, Mic, PenLine, Users, ExternalLink } from 'lucide-react';
+import { blogPosts } from './blogData';
 
 function useOnScreen(ref) {
   const [isVisible, setIsVisible] = useState(false);
@@ -186,27 +188,6 @@ export default function Portfolio() {
     }
   ];
 
-  const blogPosts = [
-    {
-      title: "Why I End Meetings Early",
-      description: "Booking long and ending early respects cognitive load and gets better results.",
-      category: "Leadership",
-      status: "Read on Medium",
-      link: "https://medium.com/@courtneykingsbury"
-    },
-    {
-      title: "Working Faster ≠ More Work",
-      description: "AI productivity gains shouldn't mean doing more, just delivering value in less time.",
-      category: "AI & Work",
-      status: "Coming Soon"
-    },
-    {
-      title: "The Honest Ignorance Framework",
-      description: "How admitting what you don't know speeds up decision-making.",
-      category: "Product",
-      status: "Coming Soon"
-    }
-  ];
 
   // Auto-rotate testimonials
   useEffect(() => {
@@ -701,24 +682,34 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-3 gap-6">
             {blogPosts.map((post, index) => (
               <AnimatedSection key={index} delay={index * 100}>
-                {post.link ? (
+                {post.externalLink ? (
                   <a
-                    href={post.link}
+                    href={post.externalLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block p-6 rounded-2xl h-full transition hover:opacity-80"
                     style={{ backgroundColor: colors.cream }}
                   >
-                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.status}</p>
+                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.date}</p>
                     <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
                     <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
                   </a>
+                ) : post.content ? (
+                  <Link
+                    to={`/blog/${post.slug}`}
+                    className="block p-6 rounded-2xl h-full transition hover:opacity-80"
+                    style={{ backgroundColor: colors.cream }}
+                  >
+                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.date}</p>
+                    <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
+                    <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
+                  </Link>
                 ) : (
                   <div
                     className="p-6 rounded-2xl h-full"
                     style={{ backgroundColor: colors.cream }}
                   >
-                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.status}</p>
+                    <p className="text-xs uppercase tracking-widest mb-3" style={{ color: colors.teal }}>{post.category} · {post.date}</p>
                     <h3 className="font-serif text-xl mb-2" style={{ color: colors.charcoal }}>{post.title}</h3>
                     <p className="text-sm" style={{ color: colors.charcoalLight }}>{post.description}</p>
                   </div>
