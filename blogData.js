@@ -4,7 +4,7 @@ export const blogPosts = [
     title: "Yes, I Use ChatGPT Like Google. And It Works.",
     description: "Why asking 'basic' questions isn't wrong—it's exactly how you get ahead in AI.",
     category: "AI & Work",
-    date: "December 10, 2024",
+    date: "December 10, 2025",
     content: `I keep hearing people scoff at others for using ChatGPT "like Google." The implication is clear: if you're not writing elaborate prompts or building complex chains, you're doing it wrong.
 
 Here's the thing: I build AI systems. I've trained with the Principal PM from Amazon Alexa. I have 15 years in product leadership. And I still use ChatGPT like Google sometimes. Because it works.
@@ -50,7 +50,7 @@ That's not basic. That's how it works.`
     title: "Why I End Meetings Early",
     description: "Booking long and ending early respects cognitive load and gets better results.",
     category: "Leadership",
-    date: "December 2024",
+    date: "November 2025",
     content: `I overbook meetings on purpose.
 
 Not because I expect them to run long. Because I expect them to end early, and I want that buffer built in. If the meeting runs the full time, great. No scrambling, no "let's circle back." But most meetings don't need every minute they're scheduled for.
@@ -104,7 +104,7 @@ That's why I end meetings early. And that's why I stay.`
     title: "The Honest Ignorance Framework",
     description: "How admitting what you don't know speeds up decision-making.",
     category: "Leadership",
-    date: "December 2024",
+    date: "October 2025",
     content: `"Fake it till you make it" is terrible advice.
 
 I've watched talented people waste hours, sometimes days, scrambling to figure something out rather than admit they didn't know. I've seen projects derail because someone nodded along in a meeting instead of asking a clarifying question. I've been that person, burning mental energy performing expertise I didn't have instead of just saying "I don't know, can you show me?"
@@ -164,7 +164,7 @@ That's not weakness. That's how you actually get ahead.`
     title: "Stop Asking AI to Validate You. Ask It to Challenge You.",
     description: "AI validation feels amazing. Critical AI feedback is what actually makes you better.",
     category: "AI & Work",
-    date: "December 2024",
+    date: "September 2025",
     content: `AI validation feels amazing. "Yes, that's an inspired idea!" "This is exactly the right approach!"
 
 It's addictive. It's also dangerous.
@@ -226,7 +226,7 @@ That's when it stops being a tool and starts being a coach.`
     title: "15 Years of Asking. One Hour of Tinkering.",
     description: "Why the best product leaders going forward will be the ones who actually build.",
     category: "Product",
-    date: "December 2024",
+    date: "August 2025",
     content: `My husband asked his dev friends to build him an app. For 15 years.
 
 The concept was simple: alerts for when to open and close the windows based on outside temperature versus his preferred range. Nothing fancy. Just a notification that says "hey, it's nice out, open up" or "getting too hot, close them up."
@@ -274,7 +274,7 @@ If you're looking for a Product Director who actually builds, let's talk.`
     title: "Gen Z + AI: The Bright Future We've Been Hoping For",
     description: "Gen Z isn't lazy. They're efficient, boundaried, and exactly what AI-augmented work needs.",
     category: "AI & Work",
-    date: "December 2024",
+    date: "July 2025",
     content: `Gen Z has been called lazy for years. Sound familiar, millennials?
 
 Every generation inherits criticism from the one before. Millennials were told we were entitled, that we'd never amount to anything because we stared at our phones too much. Now we're watching the exact same playbook get used on the generation behind us.

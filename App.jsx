@@ -276,24 +276,24 @@ export default function Portfolio() {
             {/* Text */}
             <div className="order-1 lg:order-2">
               <AnimatedSection>
-                <p className="text-sm uppercase tracking-widest mb-6" style={{ color: colors.teal }}>Product Director</p>
+                <p className="text-sm uppercase tracking-widest mb-6" style={{ color: colors.teal }}>Product Director | GenAI & Platform Strategy | AI Systems in Production</p>
               </AnimatedSection>
               
               <AnimatedSection delay={100}>
                 <h1 className="font-serif text-5xl lg:text-6xl mb-6 leading-tight" style={{ color: colors.charcoal }}>
-                  I translate executive vision into shipped products.
+                  I ship real GenAI, not PowerPoint promises.
                 </h1>
               </AnimatedSection>
-              
+
               <AnimatedSection delay={200}>
                 <p className="text-xl mb-4 leading-relaxed" style={{ color: colors.charcoalLight }}>
-                  15 years building AI products, leading teams, and driving transformation. Trained by Polly Allen, Principal PM on Amazon Alexa.
+                  I've spent 6+ years building AI products that work, not just demos. Document intelligence systems, conversational AI, human-in-the-loop automation.
                 </p>
               </AnimatedSection>
 
               <AnimatedSection delay={300}>
                 <p className="text-lg mb-8 leading-relaxed" style={{ color: colors.muted }}>
-                  I stepped away to invest deeply in understanding AI at every level: executive, engineering, and product. Now I'm ready for my next chapter.
+                  15+ years of product leadership across financial services and SaaS. Trained by Polly Allen, Principal PM on Amazon Alexa.
                 </p>
               </AnimatedSection>
 
@@ -649,19 +649,19 @@ export default function Portfolio() {
           <AnimatedSection delay={100}>
             <div className="space-y-6 text-lg leading-relaxed" style={{ color: colors.charcoalLight }}>
               <p>
-                I was told I couldn't join a data science cohort because I didn't have the right degree. I was stuck in junior dev work where technical gatekeeping was the culture.
+                I'm a Digital/Technical Product Director who builds AI systems that work and teams that thrive.
               </p>
               <p>
-                But one programmer was different. They explained things clearly and admitted when they didn't know something. It gave me hope I could change things, and I found a way through product management.
+                Over 15 years spanning American Express, AmEx Global Business Travel, and SaaS, I've led cross-functional teams through SAFe transformations, shipped products that drove 6-figure revenue, and automated processes that cut 18-month timelines to 1 month. I've managed $1.2M+ budgets, navigated GDPR and federal compliance, and built a leadership style that consistently gets feedback like "I've never felt this supported at work."
               </p>
               <p>
-                Over 15 years at American Express, AmEx Global Business Travel, and a SaaS company, I became the person I needed when I was starting out: a translator between executives and engineers, and someone who makes it safe to say "I don't know."
+                I'm also a translator. I turn executive vision into roadmaps engineers can build, and I turn technical constraints into business terms executives can act on. Both sides need someone in the middle who speaks both languages. I make it safe to say "I don't know" because that's where the best work starts.
               </p>
               <p>
-                Recently, I made an intentional decision to invest in understanding AI at every level. I trained with Polly Allen, the Principal PM who helped build Alexa, and earned an advanced AI product certification.
+                I stepped away from my last role to intentionally invest deeper in AI at every level: executive strategy, product management, and technical architecture. I trained with Polly Allen, the Principal PM who helped build Alexa, and started building production systems myself. My document intelligence platform is designed with a simple rule: if it can't cite a source, it doesn't answer. It's currently serving enterprise clients.
               </p>
               <p style={{ color: colors.charcoal }}>
-                Now I'm ready for the next chapter.
+                I'm looking for a leadership role where I can bring all of this together: product strategy, GenAI, team building, and a human-centered approach to getting things done.
               </p>
             </div>
           </AnimatedSection>

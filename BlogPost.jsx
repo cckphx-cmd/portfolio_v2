@@ -78,7 +78,7 @@ export default function BlogPost() {
       <header className="border-b" style={{ backgroundColor: colors.cream, borderColor: colors.border }}>
         <div className="max-w-4xl mx-auto px-8 py-8">
           <Link
-            to="/"
+            to="/#writing"
             className="inline-flex items-center gap-2 text-sm transition hover:opacity-70 mb-8"
             style={{ color: colors.teal }}
           >
@@ -114,7 +114,7 @@ export default function BlogPost() {
       <div className="py-12 px-8" style={{ backgroundColor: colors.creamDark }}>
         <div className="max-w-3xl mx-auto text-center">
           <Link
-            to="/"
+            to="/#writing"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full transition hover:opacity-90"
             style={{ backgroundColor: colors.teal, color: colors.cream }}
           >
