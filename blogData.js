@@ -1,5 +1,55 @@
 export const blogPosts = [
   {
+    slug: "switching-from-chatgpt-to-claude",
+    title: "I Moved 3 People From ChatGPT to Claude Today. Some AIs Just Have a Conscience.",
+    description: "The honest version of switching AI tools, with the trade-offs included.",
+    category: "AI & Work",
+    date: "March 2026",
+    content: `I'm not going to tell you ChatGPT is bad.
+
+But I will tell you that over the last 24 hours, I helped three real people make the switch to Claude — and every single one of them noticed something felt different. Not just the answers. The way it answers.
+
+This is the post I wish had existed before I started. The honest version, with the trade-offs included.
+
+## Have You Ever Wondered If You Just Got Used to It?
+
+That's the question that started all of this for me. Not "which AI is better" — but whether I'd ever actually evaluated my choice, or just stuck with what I started with.
+
+Most of us pick a tool, learn it, and stop questioning it. That's not laziness — that's just how habits work. But it's worth asking every now and then: is this still the right fit, or is it just familiar?
+
+## The Trade-Off Nobody Warned Me About
+
+Let's be direct: when you switch AI tools, you start from zero.
+
+Your conversation history doesn't transfer. Any memory your current AI has built up about how you work? Gone. Saved workflows, custom setups, the prompts you've refined over months — you're rebuilding from scratch.
+
+That's a real cost. It's not a dealbreaker, but I'd be doing you a disservice to pretend it isn't real. Think of it like switching phones — the new one might genuinely suit you better, but for a week or two, you'll be relearning where everything lives.
+
+## What the 24 Hours Actually Looked Like
+
+Three people. Different backgrounds. Different use cases. Here's what surprised all of us:
+
+The learning curve was shorter than expected. Within a day, each person had found their footing. Claude responds well to a bit more context upfront, and it will push back when something seems off — which felt strange at first, and useful shortly after.
+
+The habits were the hardest part. Not the technology. The muscle memory. The instinct to open a certain tab, type a certain way. That takes about a week to rewire. Every person I helped hit a moment around day two where they almost quit — and by day four, didn't want to go back.
+
+Something felt different about the responses. This is the part that's harder to quantify. Claude seemed less interested in telling people what they wanted to hear. It acknowledged uncertainty more readily. It pushed back more. Whether that's a feature or a bug depends entirely on what you're looking for in an AI.
+
+## Who Should Actually Consider Making the Switch
+
+Consider switching if you use AI for writing, research, or complex thinking. If you've felt like your AI agrees with you a little too easily. If you want something that treats you like an adult. If you're just curious — honestly, that's enough.
+
+Stick with what you have if you've built deep integrations that would take real time to rebuild. If you're genuinely happy and "good enough" is good enough. If you don't have a week for the adjustment period right now.
+
+## What I'd Tell You to Do
+
+Don't delete anything. Don't commit to anything. Try it for one week on one specific task — something you do regularly, so you have a real basis for comparison.
+
+That's all I asked the three people I helped to do. One week. One task. See how it feels.
+
+Two of them have already made the full switch. One is still deciding. All three said the week was worth it.`
+  },
+  {
     slug: "use-chatgpt-like-google",
     title: "Yes, I Use ChatGPT Like Google. And It Works.",
     description: "Why asking 'basic' questions isn't wrong—it's exactly how you get ahead in AI.",
